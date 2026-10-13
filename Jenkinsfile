@@ -8,7 +8,7 @@ pipeline{
         }
         stage("Run tests"){
             steps{
-                bat "npm run test --no-build --verbosity normal"
+                bat "npm run test"
             }
         }
     }
